@@ -1,0 +1,1 @@
+# Eddy Core Templates Repo
