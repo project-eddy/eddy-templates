@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "slug": "simple-onboarding",
+      "schemaVersion": 1,
+      "name": "Simple Onboarding",
+      "description": "A simple onboarding workflow for a new team member",
+      "file": "templates/simple-onboarding.json",
+      "preview": {
+        "pages": [
+          {
+            "id": "8f884b11-01a2-43d9-bb95-bbfb781b709e",
+            "name": "Welcome",
+            "position": {
+              "x": 200,
+              "y": 175
+            },
+            "is_start_stage": true,
+            "is_end_stage": false
+          },
+          {
+            "id": "fd35f4ee-48a1-409c-a880-02bab790b067",
+            "name": "Personal Details",
+            "position": {
+              "x": 200,
+              "y": 495
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "18192b4c-5446-4f78-8666-29f5705c77fb",
+            "name": "Pre-Flight",
+            "position": {
+              "x": 200,
+              "y": 795
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "8d716604-faf8-47d1-9762-33344327020a",
+            "name": "Thank You",
+            "position": {
+              "x": 200,
+              "y": 1120
+            },
+            "is_start_stage": false,
+            "is_end_stage": true
+          }
+        ],
+        "pageTransitions": [
+          {
+            "source_id": "8f884b11-01a2-43d9-bb95-bbfb781b709e",
+            "target_id": "fd35f4ee-48a1-409c-a880-02bab790b067"
+          },
+          {
+            "source_id": "fd35f4ee-48a1-409c-a880-02bab790b067",
+            "target_id": "18192b4c-5446-4f78-8666-29f5705c77fb"
+          },
+          {
+            "source_id": "18192b4c-5446-4f78-8666-29f5705c77fb",
+            "target_id": "8d716604-faf8-47d1-9762-33344327020a"
+          }
+        ],
+        "orientation": "vertical"
+      }
+    }
+  ]
+}
