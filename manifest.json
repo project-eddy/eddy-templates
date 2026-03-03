@@ -4,7 +4,7 @@
     {
       "slug": "simple-onboarding",
       "schemaVersion": 1,
-      "name": "Simple Onboarding",
+      "name": "Onboarding Demo",
       "description": "A simple onboarding workflow for a new team member",
       "file": "templates/simple-onboarding.json",
       "preview": {
