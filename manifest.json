@@ -66,6 +66,90 @@
         ],
         "orientation": "vertical"
       }
+    },
+    {
+      "slug": "proposal-review",
+      "schemaVersion": 1,
+      "name": "Proposal Review",
+      "description": "This is a simple two-player workflow. The Writer initiates a draft, and the Reviewer has the opportunity to approve the draft or give feedback. This is a potentially looping or iterative process.",
+      "file": "templates/proposal-review.json",
+      "preview": {
+        "pages": [
+          {
+            "id": "d9844eb2-d332-4a9f-bddd-e3eaa171610d",
+            "name": "Review",
+            "position": {
+              "x": 200,
+              "y": 955
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "ad523ede-c27c-436b-8b65-0825f71d3695",
+            "name": "Draft Proposal",
+            "position": {
+              "x": 200,
+              "y": 595
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "77e97e04-78ce-4d20-afe0-aeb0ddba3dfc",
+            "name": "Feedback",
+            "position": {
+              "x": 780,
+              "y": 955
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "b3b02f26-a9d9-4f06-a406-db0183e6180d",
+            "name": "Done",
+            "position": {
+              "x": 200,
+              "y": 1355
+            },
+            "is_start_stage": false,
+            "is_end_stage": true
+          },
+          {
+            "id": "bb7affae-5260-4913-8889-0aa65ef7f112",
+            "name": "Welcome",
+            "position": {
+              "x": 200,
+              "y": 215
+            },
+            "is_start_stage": true,
+            "is_end_stage": false
+          }
+        ],
+        "pageTransitions": [
+          {
+            "source_id": "bb7affae-5260-4913-8889-0aa65ef7f112",
+            "target_id": "ad523ede-c27c-436b-8b65-0825f71d3695"
+          },
+          {
+            "source_id": "ad523ede-c27c-436b-8b65-0825f71d3695",
+            "target_id": "d9844eb2-d332-4a9f-bddd-e3eaa171610d"
+          },
+          {
+            "source_id": "77e97e04-78ce-4d20-afe0-aeb0ddba3dfc",
+            "target_id": "ad523ede-c27c-436b-8b65-0825f71d3695"
+          },
+          {
+            "source_id": "d9844eb2-d332-4a9f-bddd-e3eaa171610d",
+            "target_id": "77e97e04-78ce-4d20-afe0-aeb0ddba3dfc"
+          },
+          {
+            "source_id": "d9844eb2-d332-4a9f-bddd-e3eaa171610d",
+            "target_id": "b3b02f26-a9d9-4f06-a406-db0183e6180d"
+          }
+        ],
+        "orientation": "vertical"
+      }
     }
   ]
 }
