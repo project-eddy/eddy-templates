@@ -2,6 +2,44 @@
   "version": 1,
   "templates": [
     {
+      "slug": "data-collection",
+      "schemaVersion": 1,
+      "name": "Data Collection",
+      "description": "A simple workflow that allows the Data Entry person to add items to a register/data table, while a Reviewer approves each item.",
+      "file": "templates/data-collection.json",
+      "preview": {
+        "pages": [
+          {
+            "id": "7ba9a387-2f4c-4b1b-9098-cdf676e8945c",
+            "name": "Stocktake",
+            "position": {
+              "x": 200,
+              "y": 200
+            },
+            "is_start_stage": true,
+            "is_end_stage": false
+          },
+          {
+            "id": "e2af556f-85ac-4925-b572-9fa6e1ead0ca",
+            "name": "Review",
+            "position": {
+              "x": 200,
+              "y": 555
+            },
+            "is_start_stage": false,
+            "is_end_stage": true
+          }
+        ],
+        "pageTransitions": [
+          {
+            "source_id": "7ba9a387-2f4c-4b1b-9098-cdf676e8945c",
+            "target_id": "e2af556f-85ac-4925-b572-9fa6e1ead0ca"
+          }
+        ],
+        "orientation": "vertical"
+      }
+    },
+    {
       "slug": "simple-onboarding",
       "schemaVersion": 1,
       "name": "Onboarding Demo",
