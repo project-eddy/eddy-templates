@@ -42,7 +42,7 @@
     {
       "slug": "simple-onboarding",
       "schemaVersion": 1,
-      "name": "Onboarding Demo",
+      "name": "Employee Onboarding",
       "description": "A simple onboarding workflow for a new team member",
       "file": "templates/simple-onboarding.json",
       "preview": {
