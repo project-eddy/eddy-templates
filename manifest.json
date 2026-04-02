@@ -2,188 +2,368 @@
   "version": 1,
   "templates": [
     {
-      "slug": "data-collection",
+      "slug": "data_collection_2026_04",
       "schemaVersion": 1,
       "name": "Data Collection",
-      "description": "A simple workflow that allows the Data Entry person to add items to a register/data table, while a Reviewer approves each item.",
-      "file": "templates/data-collection.json",
+      "description": "A simple template about simple and organized data collection",
+      "file": "templates/data_collection_2026_04.json",
       "preview": {
         "pages": [
           {
-            "id": "7ba9a387-2f4c-4b1b-9098-cdf676e8945c",
-            "name": "Stocktake",
-            "position": {
-              "x": 200,
-              "y": 200
-            },
-            "is_start_stage": true,
-            "is_end_stage": false
-          },
-          {
-            "id": "e2af556f-85ac-4925-b572-9fa6e1ead0ca",
-            "name": "Review",
-            "position": {
-              "x": 200,
-              "y": 555
-            },
-            "is_start_stage": false,
-            "is_end_stage": true
-          }
-        ],
-        "pageTransitions": [
-          {
-            "source_id": "7ba9a387-2f4c-4b1b-9098-cdf676e8945c",
-            "target_id": "e2af556f-85ac-4925-b572-9fa6e1ead0ca"
-          }
-        ],
-        "orientation": "vertical"
-      }
-    },
-    {
-      "slug": "simple-onboarding",
-      "schemaVersion": 1,
-      "name": "Employee Onboarding",
-      "description": "A simple onboarding workflow for a new team member",
-      "file": "templates/simple-onboarding.json",
-      "preview": {
-        "pages": [
-          {
-            "id": "8f884b11-01a2-43d9-bb95-bbfb781b709e",
+            "id": "0964395a-0121-4594-95bd-4fe5b116cc8b",
             "name": "Welcome",
             "position": {
               "x": 200,
-              "y": 175
+              "y": 235
             },
             "is_start_stage": true,
             "is_end_stage": false
           },
           {
-            "id": "fd35f4ee-48a1-409c-a880-02bab790b067",
-            "name": "Personal Details",
+            "id": "38a94b48-58af-492e-8941-96f2767aaca0",
+            "name": "Admin Panel",
             "position": {
               "x": 200,
-              "y": 495
-            },
-            "is_start_stage": false,
-            "is_end_stage": false
-          },
-          {
-            "id": "18192b4c-5446-4f78-8666-29f5705c77fb",
-            "name": "Pre-Flight",
-            "position": {
-              "x": 200,
-              "y": 795
-            },
-            "is_start_stage": false,
-            "is_end_stage": false
-          },
-          {
-            "id": "8d716604-faf8-47d1-9762-33344327020a",
-            "name": "Thank You",
-            "position": {
-              "x": 200,
-              "y": 1120
+              "y": 835
             },
             "is_start_stage": false,
             "is_end_stage": true
+          },
+          {
+            "id": "1635dde2-d37d-4554-8517-ff41be203688",
+            "name": "Thank you",
+            "position": {
+              "x": 200,
+              "y": 535
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
           }
         ],
         "pageTransitions": [
           {
-            "source_id": "8f884b11-01a2-43d9-bb95-bbfb781b709e",
-            "target_id": "fd35f4ee-48a1-409c-a880-02bab790b067"
+            "source_id": "0964395a-0121-4594-95bd-4fe5b116cc8b",
+            "target_id": "1635dde2-d37d-4554-8517-ff41be203688"
           },
           {
-            "source_id": "fd35f4ee-48a1-409c-a880-02bab790b067",
-            "target_id": "18192b4c-5446-4f78-8666-29f5705c77fb"
-          },
-          {
-            "source_id": "18192b4c-5446-4f78-8666-29f5705c77fb",
-            "target_id": "8d716604-faf8-47d1-9762-33344327020a"
+            "source_id": "1635dde2-d37d-4554-8517-ff41be203688",
+            "target_id": "38a94b48-58af-492e-8941-96f2767aaca0"
           }
         ],
         "orientation": "vertical"
       }
     },
     {
-      "slug": "proposal-review",
+      "slug": "feedback_process_2026_04",
       "schemaVersion": 1,
-      "name": "Proposal Review",
-      "description": "This is a simple two-player workflow. The Writer initiates a draft, and the Reviewer has the opportunity to approve the draft or give feedback. This is a potentially looping or iterative process.",
-      "file": "templates/proposal-review.json",
+      "name": "Feedback Process",
+      "description": "A simple template for any feedback request",
+      "file": "templates/feedback_process_2026_04.json",
       "preview": {
         "pages": [
           {
-            "id": "d9844eb2-d332-4a9f-bddd-e3eaa171610d",
-            "name": "Review",
+            "id": "268dad5e-31d2-4b9a-949a-294b137fea39",
+            "name": "Examination",
             "position": {
-              "x": 200,
-              "y": 955
+              "x": 0,
+              "y": 520
             },
-            "is_start_stage": false,
+            "is_start_stage": true,
             "is_end_stage": false
           },
           {
-            "id": "ad523ede-c27c-436b-8b65-0825f71d3695",
-            "name": "Draft Proposal",
-            "position": {
-              "x": 200,
-              "y": 595
-            },
-            "is_start_stage": false,
-            "is_end_stage": false
-          },
-          {
-            "id": "77e97e04-78ce-4d20-afe0-aeb0ddba3dfc",
+            "id": "36c123c0-b856-4635-96be-77c7bc400ca9",
             "name": "Feedback",
             "position": {
-              "x": 780,
-              "y": 955
+              "x": 0,
+              "y": 840
             },
             "is_start_stage": false,
             "is_end_stage": false
           },
           {
-            "id": "b3b02f26-a9d9-4f06-a406-db0183e6180d",
-            "name": "Done",
+            "id": "3a7ed967-e896-4f80-aea1-f335599178a8",
+            "name": "Review",
             "position": {
-              "x": 200,
-              "y": 1355
+              "x": 0,
+              "y": 1160
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "543ae6a7-3830-4b1b-872b-4ef6698b2b0d",
+            "name": "Approval",
+            "position": {
+              "x": 0,
+              "y": 1480
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "ac0a284d-123f-4588-9342-0df1dfbca524",
+            "name": "Wrap Up",
+            "position": {
+              "x": 0,
+              "y": 1800
+            },
+            "is_start_stage": false,
+            "is_end_stage": true
+          }
+        ],
+        "pageTransitions": [
+          {
+            "source_id": "268dad5e-31d2-4b9a-949a-294b137fea39",
+            "target_id": "36c123c0-b856-4635-96be-77c7bc400ca9"
+          },
+          {
+            "source_id": "36c123c0-b856-4635-96be-77c7bc400ca9",
+            "target_id": "3a7ed967-e896-4f80-aea1-f335599178a8"
+          },
+          {
+            "source_id": "3a7ed967-e896-4f80-aea1-f335599178a8",
+            "target_id": "543ae6a7-3830-4b1b-872b-4ef6698b2b0d"
+          },
+          {
+            "source_id": "543ae6a7-3830-4b1b-872b-4ef6698b2b0d",
+            "target_id": "ac0a284d-123f-4588-9342-0df1dfbca524"
+          }
+        ],
+        "orientation": "vertical"
+      }
+    },
+    {
+      "slug": "onboarding_2026_04",
+      "schemaVersion": 1,
+      "name": "Onboarding",
+      "description": "A simple onboarding template including four different roles: New Employee, the IT department, the HR department and the Manager.",
+      "file": "templates/onboarding_2026_04.json",
+      "preview": {
+        "pages": [
+          {
+            "id": "af2b9d24-56d7-4606-be42-6029d679bb51",
+            "name": "Onboarding",
+            "position": {
+              "x": 4440,
+              "y": 795
+            },
+            "is_start_stage": true,
+            "is_end_stage": false
+          },
+          {
+            "id": "b983ff4b-913c-4e75-9ce0-819e3f2fd0b6",
+            "name": "Thank you",
+            "position": {
+              "x": 4720,
+              "y": 1135
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "522d62fb-0e6e-46fe-a880-e8566baf2f48",
+            "name": "HR Onboarding",
+            "position": {
+              "x": 4440,
+              "y": 1755
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "64132c46-07d0-4771-a5b9-05025d0df391",
+            "name": "IT Onboarding",
+            "position": {
+              "x": 4440,
+              "y": 1455
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "dc074682-7875-4c0a-a836-dd50f7c3929c",
+            "name": "Review",
+            "position": {
+              "x": 4440,
+              "y": 2055
+            },
+            "is_start_stage": false,
+            "is_end_stage": true
+          }
+        ],
+        "pageTransitions": [
+          {
+            "source_id": "af2b9d24-56d7-4606-be42-6029d679bb51",
+            "target_id": "b983ff4b-913c-4e75-9ce0-819e3f2fd0b6"
+          },
+          {
+            "source_id": "af2b9d24-56d7-4606-be42-6029d679bb51",
+            "target_id": "64132c46-07d0-4771-a5b9-05025d0df391"
+          },
+          {
+            "source_id": "b983ff4b-913c-4e75-9ce0-819e3f2fd0b6",
+            "target_id": "64132c46-07d0-4771-a5b9-05025d0df391"
+          },
+          {
+            "source_id": "64132c46-07d0-4771-a5b9-05025d0df391",
+            "target_id": "522d62fb-0e6e-46fe-a880-e8566baf2f48"
+          },
+          {
+            "source_id": "522d62fb-0e6e-46fe-a880-e8566baf2f48",
+            "target_id": "dc074682-7875-4c0a-a836-dd50f7c3929c"
+          }
+        ],
+        "orientation": "vertical"
+      }
+    },
+    {
+      "slug": "task_delegation_2026_04",
+      "schemaVersion": 1,
+      "name": "Task Delegation",
+      "description": "A simple template for delegating a task",
+      "file": "templates/task_delegation_2026_04.json",
+      "preview": {
+        "pages": [
+          {
+            "id": "5aa78bb7-66d5-4045-8a98-e8934ed8f8d9",
+            "name": "Task History",
+            "position": {
+              "x": 100,
+              "y": 3315
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "b72d14aa-3f8f-4eb9-8a08-21be58e872b2",
+            "name": "Task is Officially Done",
+            "position": {
+              "x": 340,
+              "y": 3695
             },
             "is_start_stage": false,
             "is_end_stage": true
           },
           {
-            "id": "bb7affae-5260-4913-8889-0aa65ef7f112",
-            "name": "Welcome",
+            "id": "fcd64538-edf6-4419-b990-cb17e6f4d122",
+            "name": "Request More Information",
             "position": {
-              "x": 200,
-              "y": 215
+              "x": 80,
+              "y": 1540
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "8d8c64c8-9301-4d2a-a80e-e3f3a36fb9d6",
+            "name": "Staff Needs More Input",
+            "position": {
+              "x": 80,
+              "y": 1800
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "c643a206-2567-4cb9-aff9-e96229718462",
+            "name": "Check the New Input",
+            "position": {
+              "x": 80,
+              "y": 2060
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "a574b9ba-5563-4be1-953d-b4fc4bed229d",
+            "name": "Evaluate the Task",
+            "position": {
+              "x": 340,
+              "y": 2820
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "d211082a-ec03-46ee-943c-f5bc568613b3",
+            "name": "New Task Assignment",
+            "position": {
+              "x": 336,
+              "y": 1037
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "2d748119-a430-47ab-b47a-a7a5fb58256b",
+            "name": "Write the Briefing",
+            "position": {
+              "x": 340,
+              "y": 780
             },
             "is_start_stage": true,
+            "is_end_stage": false
+          },
+          {
+            "id": "5e3db9fd-66c7-4f60-99f3-4f5a76edbd76",
+            "name": "Deliver the Task",
+            "position": {
+              "x": 340,
+              "y": 2560
+            },
+            "is_start_stage": false,
             "is_end_stage": false
           }
         ],
         "pageTransitions": [
           {
-            "source_id": "bb7affae-5260-4913-8889-0aa65ef7f112",
-            "target_id": "ad523ede-c27c-436b-8b65-0825f71d3695"
+            "source_id": "fcd64538-edf6-4419-b990-cb17e6f4d122",
+            "target_id": "8d8c64c8-9301-4d2a-a80e-e3f3a36fb9d6"
           },
           {
-            "source_id": "ad523ede-c27c-436b-8b65-0825f71d3695",
-            "target_id": "d9844eb2-d332-4a9f-bddd-e3eaa171610d"
+            "source_id": "8d8c64c8-9301-4d2a-a80e-e3f3a36fb9d6",
+            "target_id": "c643a206-2567-4cb9-aff9-e96229718462"
           },
           {
-            "source_id": "77e97e04-78ce-4d20-afe0-aeb0ddba3dfc",
-            "target_id": "ad523ede-c27c-436b-8b65-0825f71d3695"
+            "source_id": "c643a206-2567-4cb9-aff9-e96229718462",
+            "target_id": "fcd64538-edf6-4419-b990-cb17e6f4d122"
           },
           {
-            "source_id": "d9844eb2-d332-4a9f-bddd-e3eaa171610d",
-            "target_id": "77e97e04-78ce-4d20-afe0-aeb0ddba3dfc"
+            "source_id": "c643a206-2567-4cb9-aff9-e96229718462",
+            "target_id": "5e3db9fd-66c7-4f60-99f3-4f5a76edbd76"
           },
           {
-            "source_id": "d9844eb2-d332-4a9f-bddd-e3eaa171610d",
-            "target_id": "b3b02f26-a9d9-4f06-a406-db0183e6180d"
+            "source_id": "2d748119-a430-47ab-b47a-a7a5fb58256b",
+            "target_id": "d211082a-ec03-46ee-943c-f5bc568613b3"
+          },
+          {
+            "source_id": "d211082a-ec03-46ee-943c-f5bc568613b3",
+            "target_id": "5e3db9fd-66c7-4f60-99f3-4f5a76edbd76"
+          },
+          {
+            "source_id": "5e3db9fd-66c7-4f60-99f3-4f5a76edbd76",
+            "target_id": "a574b9ba-5563-4be1-953d-b4fc4bed229d"
+          },
+          {
+            "source_id": "a574b9ba-5563-4be1-953d-b4fc4bed229d",
+            "target_id": "b72d14aa-3f8f-4eb9-8a08-21be58e872b2"
+          },
+          {
+            "source_id": "a574b9ba-5563-4be1-953d-b4fc4bed229d",
+            "target_id": "5e3db9fd-66c7-4f60-99f3-4f5a76edbd76"
+          },
+          {
+            "source_id": "a574b9ba-5563-4be1-953d-b4fc4bed229d",
+            "target_id": "5aa78bb7-66d5-4045-8a98-e8934ed8f8d9"
+          },
+          {
+            "source_id": "d211082a-ec03-46ee-943c-f5bc568613b3",
+            "target_id": "fcd64538-edf6-4419-b990-cb17e6f4d122"
+          },
+          {
+            "source_id": "5aa78bb7-66d5-4045-8a98-e8934ed8f8d9",
+            "target_id": "b72d14aa-3f8f-4eb9-8a08-21be58e872b2"
           }
         ],
         "orientation": "vertical"
