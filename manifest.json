@@ -4,7 +4,7 @@
     {
       "slug": "data_collection_2026_04",
       "schemaVersion": 1,
-      "name": "Template: Data Collection",
+      "name": "Data Collection",
       "description": "A simple template about simple and organized data collection",
       "file": "templates/data_collection_2026_04.json",
       "preview": {
@@ -56,7 +56,7 @@
     {
       "slug": "feedback_process_2026_04",
       "schemaVersion": 1,
-      "name": "Template: Feedback Process",
+      "name": "Feedback Process",
       "description": "A simple template for any feedback request",
       "file": "templates/feedback_process_2026_04.json",
       "preview": {
@@ -136,7 +136,7 @@
     {
       "slug": "onboarding_2026_04",
       "schemaVersion": 1,
-      "name": "Template: Onboarding",
+      "name": "Onboarding",
       "description": "A simple onboarding template including four different roles: New Employee, the IT department, the HR department and the Manager.",
       "file": "templates/onboarding_2026_04.json",
       "preview": {
@@ -220,7 +220,7 @@
     {
       "slug": "task_delegation_2026_04",
       "schemaVersion": 1,
-      "name": "Template: Task Delegation",
+      "name": "Task Delegation",
       "description": "A simple template for delegating a task",
       "file": "templates/task_delegation_2026_04.json",
       "preview": {
