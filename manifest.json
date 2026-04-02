@@ -142,7 +142,7 @@
       "preview": {
         "pages": [
           {
-            "id": "2d56d436-691f-449b-95ef-7cd4f522c1f1",
+            "id": "af2b9d24-56d7-4606-be42-6029d679bb51",
             "name": "Onboarding",
             "position": {
               "x": 4440,
@@ -152,7 +152,7 @@
             "is_end_stage": false
           },
           {
-            "id": "c0fca30a-8ec7-48e3-9d51-8b7a36d9204c",
+            "id": "b983ff4b-913c-4e75-9ce0-819e3f2fd0b6",
             "name": "Thank you",
             "position": {
               "x": 4720,
@@ -162,17 +162,7 @@
             "is_end_stage": false
           },
           {
-            "id": "7e6aad5b-e302-410b-82f9-4e8409e49d4b",
-            "name": "IT Oboarding",
-            "position": {
-              "x": 4440,
-              "y": 1455
-            },
-            "is_start_stage": false,
-            "is_end_stage": false
-          },
-          {
-            "id": "4de474fe-196a-47c3-aec0-406227373127",
+            "id": "522d62fb-0e6e-46fe-a880-e8566baf2f48",
             "name": "HR Onboarding",
             "position": {
               "x": 4440,
@@ -182,8 +172,18 @@
             "is_end_stage": false
           },
           {
-            "id": "c93bc675-3731-4cf8-a184-6db59b9f4200",
-            "name": "New stage 6",
+            "id": "64132c46-07d0-4771-a5b9-05025d0df391",
+            "name": "IT Onboarding",
+            "position": {
+              "x": 4440,
+              "y": 1455
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "dc074682-7875-4c0a-a836-dd50f7c3929c",
+            "name": "Review",
             "position": {
               "x": 4440,
               "y": 2055
@@ -194,24 +194,24 @@
         ],
         "pageTransitions": [
           {
-            "source_id": "2d56d436-691f-449b-95ef-7cd4f522c1f1",
-            "target_id": "c0fca30a-8ec7-48e3-9d51-8b7a36d9204c"
+            "source_id": "af2b9d24-56d7-4606-be42-6029d679bb51",
+            "target_id": "b983ff4b-913c-4e75-9ce0-819e3f2fd0b6"
           },
           {
-            "source_id": "2d56d436-691f-449b-95ef-7cd4f522c1f1",
-            "target_id": "7e6aad5b-e302-410b-82f9-4e8409e49d4b"
+            "source_id": "af2b9d24-56d7-4606-be42-6029d679bb51",
+            "target_id": "64132c46-07d0-4771-a5b9-05025d0df391"
           },
           {
-            "source_id": "c0fca30a-8ec7-48e3-9d51-8b7a36d9204c",
-            "target_id": "7e6aad5b-e302-410b-82f9-4e8409e49d4b"
+            "source_id": "b983ff4b-913c-4e75-9ce0-819e3f2fd0b6",
+            "target_id": "64132c46-07d0-4771-a5b9-05025d0df391"
           },
           {
-            "source_id": "7e6aad5b-e302-410b-82f9-4e8409e49d4b",
-            "target_id": "4de474fe-196a-47c3-aec0-406227373127"
+            "source_id": "64132c46-07d0-4771-a5b9-05025d0df391",
+            "target_id": "522d62fb-0e6e-46fe-a880-e8566baf2f48"
           },
           {
-            "source_id": "4de474fe-196a-47c3-aec0-406227373127",
-            "target_id": "c93bc675-3731-4cf8-a184-6db59b9f4200"
+            "source_id": "522d62fb-0e6e-46fe-a880-e8566baf2f48",
+            "target_id": "dc074682-7875-4c0a-a836-dd50f7c3929c"
           }
         ],
         "orientation": "vertical"
