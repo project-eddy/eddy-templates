@@ -10,7 +10,7 @@
       "preview": {
         "pages": [
           {
-            "id": "0964395a-0121-4594-95bd-4fe5b116cc8b",
+            "id": "d95d8b95-88e8-4ff0-a4fd-592702554ad9",
             "name": "Welcome",
             "position": {
               "x": 200,
@@ -20,7 +20,7 @@
             "is_end_stage": false
           },
           {
-            "id": "38a94b48-58af-492e-8941-96f2767aaca0",
+            "id": "53eac30d-f98b-4c39-a676-3d4f48c7d4a2",
             "name": "Admin Panel",
             "position": {
               "x": 200,
@@ -30,7 +30,7 @@
             "is_end_stage": true
           },
           {
-            "id": "1635dde2-d37d-4554-8517-ff41be203688",
+            "id": "5e689099-a84f-4814-8172-99edb45a6632",
             "name": "Thank you",
             "position": {
               "x": 200,
@@ -42,12 +42,12 @@
         ],
         "pageTransitions": [
           {
-            "source_id": "0964395a-0121-4594-95bd-4fe5b116cc8b",
-            "target_id": "1635dde2-d37d-4554-8517-ff41be203688"
+            "source_id": "d95d8b95-88e8-4ff0-a4fd-592702554ad9",
+            "target_id": "5e689099-a84f-4814-8172-99edb45a6632"
           },
           {
-            "source_id": "1635dde2-d37d-4554-8517-ff41be203688",
-            "target_id": "38a94b48-58af-492e-8941-96f2767aaca0"
+            "source_id": "5e689099-a84f-4814-8172-99edb45a6632",
+            "target_id": "53eac30d-f98b-4c39-a676-3d4f48c7d4a2"
           }
         ],
         "orientation": "vertical"
