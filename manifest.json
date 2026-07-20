@@ -54,80 +54,108 @@
       }
     },
     {
-      "slug": "feedback_process_2026_04",
+      "slug": "feedback_process_2026_07_21",
       "schemaVersion": 1,
       "name": "Feedback Process",
-      "description": "A simple template for any feedback request",
-      "file": "templates/feedback_process_2026_04.json",
+      "description": "A simple yet powerful template to guide the feedback process and share its results with the team",
+      "file": "templates/feedback_process_2026_07_21.json",
       "preview": {
         "pages": [
           {
-            "id": "268dad5e-31d2-4b9a-949a-294b137fea39",
-            "name": "Examination",
-            "position": {
-              "x": 0,
-              "y": 520
-            },
-            "is_start_stage": true,
-            "is_end_stage": false
-          },
-          {
-            "id": "36c123c0-b856-4635-96be-77c7bc400ca9",
-            "name": "Feedback",
-            "position": {
-              "x": 0,
-              "y": 840
-            },
-            "is_start_stage": false,
-            "is_end_stage": false
-          },
-          {
-            "id": "3a7ed967-e896-4f80-aea1-f335599178a8",
+            "id": "7da98302-9ec2-44c2-b83b-b07fdf7458c0",
             "name": "Review",
             "position": {
-              "x": 0,
-              "y": 1160
+              "x": 460,
+              "y": 55
             },
             "is_start_stage": false,
             "is_end_stage": false
           },
           {
-            "id": "543ae6a7-3830-4b1b-872b-4ef6698b2b0d",
+            "id": "8bf6f7a0-6ea4-4086-8f55-c6fc1a038934",
+            "name": "Feedback",
+            "position": {
+              "x": 460,
+              "y": 315
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "d39c5e2d-e4c3-4f63-9790-5c2df23409e4",
             "name": "Approval",
             "position": {
-              "x": 0,
-              "y": 1480
+              "x": 460,
+              "y": 835
             },
             "is_start_stage": false,
             "is_end_stage": false
           },
           {
-            "id": "ac0a284d-123f-4588-9342-0df1dfbca524",
+            "id": "92b397db-116c-4aca-b665-f54a78752068",
+            "name": "Processing",
+            "position": {
+              "x": 460,
+              "y": 575
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "a08fcbea-1df7-4015-ba89-da31d564842f",
             "name": "Wrap Up",
             "position": {
-              "x": 0,
-              "y": 1800
+              "x": 460,
+              "y": 1095
+            },
+            "is_start_stage": false,
+            "is_end_stage": false
+          },
+          {
+            "id": "e6de3781-4551-4dde-be4b-560fee513996",
+            "name": "Feedback Results",
+            "position": {
+              "x": 460,
+              "y": 1355
             },
             "is_start_stage": false,
             "is_end_stage": true
+          },
+          {
+            "id": "eaa15b99-dcf5-4275-bcd2-c99e069c82b1",
+            "name": "New Process",
+            "position": {
+              "x": 460,
+              "y": -205
+            },
+            "is_start_stage": true,
+            "is_end_stage": false
           }
         ],
         "pageTransitions": [
           {
-            "source_id": "268dad5e-31d2-4b9a-949a-294b137fea39",
-            "target_id": "36c123c0-b856-4635-96be-77c7bc400ca9"
+            "source_id": "7da98302-9ec2-44c2-b83b-b07fdf7458c0",
+            "target_id": "8bf6f7a0-6ea4-4086-8f55-c6fc1a038934"
           },
           {
-            "source_id": "36c123c0-b856-4635-96be-77c7bc400ca9",
-            "target_id": "3a7ed967-e896-4f80-aea1-f335599178a8"
+            "source_id": "8bf6f7a0-6ea4-4086-8f55-c6fc1a038934",
+            "target_id": "92b397db-116c-4aca-b665-f54a78752068"
           },
           {
-            "source_id": "3a7ed967-e896-4f80-aea1-f335599178a8",
-            "target_id": "543ae6a7-3830-4b1b-872b-4ef6698b2b0d"
+            "source_id": "92b397db-116c-4aca-b665-f54a78752068",
+            "target_id": "d39c5e2d-e4c3-4f63-9790-5c2df23409e4"
           },
           {
-            "source_id": "543ae6a7-3830-4b1b-872b-4ef6698b2b0d",
-            "target_id": "ac0a284d-123f-4588-9342-0df1dfbca524"
+            "source_id": "d39c5e2d-e4c3-4f63-9790-5c2df23409e4",
+            "target_id": "a08fcbea-1df7-4015-ba89-da31d564842f"
+          },
+          {
+            "source_id": "a08fcbea-1df7-4015-ba89-da31d564842f",
+            "target_id": "e6de3781-4551-4dde-be4b-560fee513996"
+          },
+          {
+            "source_id": "eaa15b99-dcf5-4275-bcd2-c99e069c82b1",
+            "target_id": "7da98302-9ec2-44c2-b83b-b07fdf7458c0"
           }
         ],
         "orientation": "vertical"
