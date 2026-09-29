@@ -62,17 +62,17 @@
       "preview": {
         "pages": [
           {
-            "id": "7da98302-9ec2-44c2-b83b-b07fdf7458c0",
-            "name": "Review",
+            "id": "7d81281d-8bb4-496e-937a-7c80f58effa0",
+            "name": "Review Material",
             "position": {
               "x": 460,
               "y": 55
             },
-            "is_start_stage": false,
+            "is_start_stage": true,
             "is_end_stage": false
           },
           {
-            "id": "8bf6f7a0-6ea4-4086-8f55-c6fc1a038934",
+            "id": "19af4706-4a71-417a-be13-d5df6489f1ce",
             "name": "Feedback",
             "position": {
               "x": 460,
@@ -82,7 +82,7 @@
             "is_end_stage": false
           },
           {
-            "id": "d39c5e2d-e4c3-4f63-9790-5c2df23409e4",
+            "id": "a84b748d-9cd8-4e4c-befc-d72bd1eec930",
             "name": "Approval",
             "position": {
               "x": 460,
@@ -92,7 +92,7 @@
             "is_end_stage": false
           },
           {
-            "id": "92b397db-116c-4aca-b665-f54a78752068",
+            "id": "93596fc4-b37e-4311-971c-b4464b7b1e2e",
             "name": "Processing",
             "position": {
               "x": 460,
@@ -102,7 +102,7 @@
             "is_end_stage": false
           },
           {
-            "id": "a08fcbea-1df7-4015-ba89-da31d564842f",
+            "id": "3f6092e8-2953-41de-ae4e-efed502d8c38",
             "name": "Wrap Up",
             "position": {
               "x": 460,
@@ -112,7 +112,7 @@
             "is_end_stage": false
           },
           {
-            "id": "e6de3781-4551-4dde-be4b-560fee513996",
+            "id": "394ef378-b025-425b-9e5c-7fbcda7286d2",
             "name": "Feedback Results",
             "position": {
               "x": 460,
@@ -120,42 +120,28 @@
             },
             "is_start_stage": false,
             "is_end_stage": true
-          },
-          {
-            "id": "eaa15b99-dcf5-4275-bcd2-c99e069c82b1",
-            "name": "New Process",
-            "position": {
-              "x": 460,
-              "y": -205
-            },
-            "is_start_stage": true,
-            "is_end_stage": false
           }
         ],
         "pageTransitions": [
           {
-            "source_id": "7da98302-9ec2-44c2-b83b-b07fdf7458c0",
-            "target_id": "8bf6f7a0-6ea4-4086-8f55-c6fc1a038934"
+            "source_id": "7d81281d-8bb4-496e-937a-7c80f58effa0",
+            "target_id": "19af4706-4a71-417a-be13-d5df6489f1ce"
           },
           {
-            "source_id": "8bf6f7a0-6ea4-4086-8f55-c6fc1a038934",
-            "target_id": "92b397db-116c-4aca-b665-f54a78752068"
+            "source_id": "19af4706-4a71-417a-be13-d5df6489f1ce",
+            "target_id": "93596fc4-b37e-4311-971c-b4464b7b1e2e"
           },
           {
-            "source_id": "92b397db-116c-4aca-b665-f54a78752068",
-            "target_id": "d39c5e2d-e4c3-4f63-9790-5c2df23409e4"
+            "source_id": "93596fc4-b37e-4311-971c-b4464b7b1e2e",
+            "target_id": "a84b748d-9cd8-4e4c-befc-d72bd1eec930"
           },
           {
-            "source_id": "d39c5e2d-e4c3-4f63-9790-5c2df23409e4",
-            "target_id": "a08fcbea-1df7-4015-ba89-da31d564842f"
+            "source_id": "a84b748d-9cd8-4e4c-befc-d72bd1eec930",
+            "target_id": "3f6092e8-2953-41de-ae4e-efed502d8c38"
           },
           {
-            "source_id": "a08fcbea-1df7-4015-ba89-da31d564842f",
-            "target_id": "e6de3781-4551-4dde-be4b-560fee513996"
-          },
-          {
-            "source_id": "eaa15b99-dcf5-4275-bcd2-c99e069c82b1",
-            "target_id": "7da98302-9ec2-44c2-b83b-b07fdf7458c0"
+            "source_id": "3f6092e8-2953-41de-ae4e-efed502d8c38",
+            "target_id": "394ef378-b025-425b-9e5c-7fbcda7286d2"
           }
         ],
         "orientation": "vertical"
